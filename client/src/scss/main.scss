@@ -1,0 +1,354 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+
+
+
+
+
+.navigationbar{
+    background-color: #CCD6A6;
+}
+.navbar {
+    width: 100%;
+    margin: 1% 0% 0% 0%;
+
+    .nav-up {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            padding-left: 13%;
+            font-size: 1.7rem;
+            font-weight: normal;
+        }
+
+        a {
+            padding-right: 2%;
+        }
+
+        button {
+
+            padding: 4%;
+            border-radius: 10%;
+            border: none;
+            background-color: #CCD6A6;
+            box-shadow: 200px black;
+        }
+
+        p {
+            padding-right: 4%;
+        }
+    }
+
+}
+
+.logoimg {
+    width: 70px;
+    position: absolute;
+    top: -50px;
+
+
+
+}
+@media  (max-width: 600px) {
+    .nav-up {
+        
+        
+        justify-content: space-between;}
+  }
+
+.nav {
+
+    width: 70%;
+
+}
+
+.nav-buttons {
+
+    padding: 0%;
+    margin: auto;
+}
+
+
+
+
+.carouseldiv {
+
+    & img {
+        height: 70vh;
+    }
+
+}
+
+
+
+// cards section
+
+#cards {
+    background-color: #DAE2B6;
+    padding-top: 2%;
+
+
+    // display: flex;
+    // justify-content: space-around;
+    .parda {
+        display: flex;
+        justify-content: space-around;
+                background-color: #dae2b672;
+
+    }
+
+    & h3 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    & h5 {
+        text-align: center;
+
+    }
+
+    & p {
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 500;
+        
+
+    }
+
+    & .cards-section {
+        background-image: url("http://studentaffairs.iiti.ac.in/images/slider/1.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        
+
+
+    }
+
+    & .fa-solid {
+        text-align: center;
+        margin: 20%;
+    }
+
+    & .Card.Body {
+        background-color: transparent;
+    }
+}
+
+
+
+
+// Updates
+#Alumni-Updates {
+    background-color:#FFFBE9;
+
+    
+    padding: 3% 7%;
+
+
+
+    & h3 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    & h5 {
+        text-align: center;
+
+    }
+
+    & p {
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .imgdiv {
+        overflow: hidden;
+        height: 200px;
+
+        img {
+            width: 300px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+
+        }
+
+
+    }
+
+    .cards-section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+}
+
+
+#Upcoming-Updates{
+    background-color: #DAE2B6;
+
+    
+    padding: 3% 7%;
+    & .fa-solid {
+        text-align: center;
+        margin: 7%;
+    }
+    .cards-section {
+        display: flex;
+        justify-content: space-around;
+    }
+    & h3 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    & h5 {
+        text-align: center;
+
+    }
+
+    & p {
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+}
+
+#msgdir{
+    background-color: #FFFBE9;
+
+    
+    padding: 3% 7%;
+    .dirimg{
+        text-align: center;
+    }
+    & h3 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    & h5 {
+        text-align: center;
+
+    }
+
+    & p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+}
+
+
+#Initiatives{
+    padding: 3% 7%;
+    background-color: #DAE2B6;
+    & .fa-solid {
+        text-align: center;
+        margin: 0.5%;
+    }
+    .cards-section {
+        display: flex;
+        justify-content: space-around;
+    }
+    & h3 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    & h5 {
+        text-align: center;
+
+    }
+
+    & p {
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+
+
+}
+
+
+
+// Contact us sectioon
+#contact{
+    padding: 0% 0%;
+    background-color: #FFFBE9;
+    
+
+    .upper-div{
+        padding: 5% 2% 7% 2%;
+        background-color: #FFFBE9;
+        // padding: 2%;
+        
+    }
+
+    .contact-section{
+        position: relative;
+        top: -60px;
+        display: flex;
+        padding: 0% 5% 0% 5%;
+
+        .contact-info{
+            padding: 3%;
+            background-color: #9e9e9e;
+            margin-right: 2%;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding-right: 7%;
+    }
+
+}
+
+
+
+
+
+// LOGIN PAG
+
+.login-div {
+    padding: 10% 30%;
+    background-image: linear-gradient();
+}
+
+// profile-section
+#profile-section {
+    margin: 0% 20%;
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 2%;
+
+
+    .profileimg {
+        text-align: center;
+
+        img {
+            width: 20%;
+            margin: auto;
+            border-radius: 7%;
+        }
+    }
+
+    .profile-info {}
+
+}
