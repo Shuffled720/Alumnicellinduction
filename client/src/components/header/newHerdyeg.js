@@ -47,7 +47,7 @@ function BootHeader( props) {
                   IIT
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown className='nav-buttons' title="Events" id="basic-nav-dropdown">
+              <NavDropdown className='nav-buttons' title="Stories" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">IIT</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   IIT
@@ -58,7 +58,7 @@ function BootHeader( props) {
                   IIT
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown className='nav-buttons' title="Events" id="basic-nav-dropdown">
+              <NavDropdown className='nav-buttons' title="Directories" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">IIT</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   IIT
